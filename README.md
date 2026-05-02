@@ -3,9 +3,9 @@ Based on the work from <https://github.com/bootcrew/mono>
 
 # Features
 - Based on latest Debian sid
-- Super minimal gnome install
+- Minimal gnome install
 - XanModLTS-v3 kernel
-- Apparmor.d
+- Apparmor
 - Ublue-like tools (brew, uupd, flatpaks)
 - Firmwares and codecs ootb (for amd/intel)
 - TPM/LUKS/Systemd-homed support

@@ -53,7 +53,7 @@ RUN apt-get update && apt-get install -y curl && \
     apt-get update && apt-get install --fix-missing -y \
     sudo vim flatpak distrobox \
     cups hplip tailscale \
-    gnome-core gnome-initial-setup python3-nautilus && \
+    gnome-core gnome-initial-setup python3-nautilus xdg-utils xdg-desktop-portal-gnome && \
     #
     systemctl enable gdm && \
     apt-get remove -y gnome-software packagekit firefox-esr showtime gnome-maps snapshot simple-scan gnome-connections gnome-contacts gnome-calculator gnome-clocks gnome-weather \
